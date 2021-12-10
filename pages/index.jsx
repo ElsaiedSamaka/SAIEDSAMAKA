@@ -7,6 +7,7 @@ function Home() {
     <>
       <Head>
         <title>SAIED SAMAKA | Home</title>
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <Navbar />
@@ -24,12 +25,12 @@ function Home() {
             </p>
 
             <Link href='/contact'>
-              <a className='cta'>Contact  me!</a>
+              <a className='cta'>Contact me!</a>
             </Link>
           </div>
 
           <div className='image-wrapper'>
-            <img src='vector.png'/>
+            <img src='vector.png' />
           </div>
         </div>
       </section>
